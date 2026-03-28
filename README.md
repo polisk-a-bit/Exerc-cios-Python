@@ -1,13 +1,14 @@
 # Exercícios-Python
 Uma série de exercícios realizados utilizando Python
 
---Sumário dos Arquivos:
+--Sumário dos Exercícios:
 
-  - `criar_bd.py` - Cria o banco de dados (Já está criado, não precisa executar)
-  - `instance` -> `sistema_gerenciamento.bd` - Banco de dados (Criado usando SQLAlchemy do Flask)
-  - `__init__.py` - Configurações do sistema
-  - `forms.py` - Formulários para coleta de dados
-  - `models.py` - Modelo utilizado para a criação do banco de dados
-  - `routes.py` - Rotas Flask utilizadas para carregar as páginas do sistema
-  - `templates` - Pasta onde estão contidos os arquivos HTML
-  - `static` - Pasta onde estão contidas: `css` - Pasta para o arquivo CSS e as media queries; `foto_default` - Pasta onde está contida a foto default para usuários; `uploads` - Pasta de upload de fotos dos usuários
+  - `Sistema produtos` - Um sistema de gerenciamento de produtos feito utilizando dicionários e loops
+
+  - `Calculadora` - Uma calculadora criada utilizando loops e funções de cálculo
+
+  - `Leilão` - Um sistema de leilão. Para utilizar, execute `server.py` e então execute `client.py` em um terminal diferente (Permite vários usuários simultaneamente)
+    Arquivos:
+      - `server.py` - Hospeda clientes criando um servidor que permite conexões, através da porta 8080, utilizando seu endereço de IP. Além disso, contém as funções de gerenciamento dos clientes e dos lances
+      - `client.py` - Cria um cliente para participar do leilão e se conecta ao o servidor
+      - `itens.json` - Lista de itens que podem ser utilizados no leilão
